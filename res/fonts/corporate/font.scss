@@ -1,0 +1,27 @@
+$brand: corporate-;
+$font-display: fallback;
+$font-style: normal;
+/* corporate normal font */
+@font-face {
+  font-family: $brand + 'bold';
+  src: url('woff2/corporate-logo-straight-bold.woff2') format('woff2');
+  font-weight: bold; font-style: $font-style; font-display: $font-display;
+}
+/* corporate normal font */
+@font-face {
+  font-family: $brand + 'medium';
+  src: url('woff2/corporate-logo-straight-medium.woff2') format('woff2');
+  font-weight: 500; font-style: $font-style; font-display: $font-display;
+}
+/* corporate round font */
+@font-face {
+  font-family: $brand + 'round';
+  src: url('woff2/corporate-logo-round-medium.woff2') format('woff2');
+  font-weight: bold; font-style: $font-style; font-display: $font-display;
+}
+/* corporate mincho font */
+@font-face {
+  font-family: $brand + 'mincho';
+  src: url('woff2/corporate-mincho-straight-medium.woff2') format('woff2');
+  font-weight: 500; font-style: $font-style; font-display: $font-display;
+}

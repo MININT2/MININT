@@ -1,0 +1,32 @@
+/* corporate normal font */
+@font-face {
+  font-family: corporate-bold;
+  src: url("woff2/corporate-logo-straight-bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+/* corporate normal font */
+@font-face {
+  font-family: corporate-medium;
+  src: url("woff2/corporate-logo-straight-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+/* corporate round font */
+@font-face {
+  font-family: corporate-round;
+  src: url("woff2/corporate-logo-round-medium.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+/* corporate mincho font */
+@font-face {
+  font-family: corporate-mincho;
+  src: url("woff2/corporate-mincho-straight-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
