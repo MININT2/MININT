@@ -24,9 +24,16 @@ permalink: /404.html
   <body>
     <div>
       <span id="longshadow" style="font-family: corporate-mincho;">禁</span>
+      <button class="link" onClick="redirect()"></button>
     </div>
   </body>
 
   <script src="/js/dropshadow.js"></script>
   <script src="/js/bg-noise.js"></script>
+  <script>
+    function redirect() {
+    var url = "/index.html";
+      window.location.replace(url);
+    }
+  </script>
 </html>

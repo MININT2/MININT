@@ -37,8 +37,14 @@ div {
         @include centerer;
         @include noselect;
         font-size: 33vmin;
-        color: #ffffff;
+        color: #8a0303;
         /* border: 2px dashed #f69c55; */
     }
 }
-
+.link {
+    @include centerer;
+    opacity: 0.0;
+    width: 33vmin;
+    height: 33vmin;
+    cursor: pointer;
+}
