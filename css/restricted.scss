@@ -36,17 +36,8 @@ div {
     span {
         @include centerer;
         @include noselect;
-        font-size: 33vmin;
+        font-size: 15vmin;
         color: #8a0303;
-        ruby {
-            font-size: inherit;
-        }
+        /* border: 2px dashed #f69c55; */
     }
-}
-.link {
-    @include centerer;
-    opacity: 0.0;
-    width: 33vmin;
-    height: 33vmin;
-    cursor: pointer;
 }
